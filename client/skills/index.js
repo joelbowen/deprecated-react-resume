@@ -1,0 +1,27 @@
+const skills = [
+  'JavaScript',
+  'AngularJS',
+  'HTML5',
+  'CSS3',
+  'Foundation',
+  'Bootstrap',
+  'ReactJS',
+  'Node.js',
+  'Express',
+  'HIPAA',
+  'Amazon Web Services',
+  'Scalability',
+  'Project Management',
+  'Agile',
+  'Lambda',
+  'PHP',
+  'Python',
+  'PostgreSQL',
+  'MongoDB',
+  'REDIS',
+  'MySQL',
+  'DynamoDB',
+  'Elasticsearch',
+];
+
+export default skills;
