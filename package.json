@@ -4,8 +4,8 @@
   "description": "A simple recreation of my resume for simple sharing",
   "main": "index.js",
   "scripts": {
-    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server --inline --content-base dist/",
-    "build": "webpack --release",
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server --inline --content-base client/",
+    "build": "webpack --release && cp client/index.html dist/index.html",
     "dist": "pushd ./dist; python ../server.py",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
