@@ -1,21 +1,13 @@
 import React from 'react';
-import './resume.scss';
+import Intro from '../Intro';
 
-/* Resources */
-import skills from '../skills';
+import './resume.scss';
 
 /* Component */
 function Resume() {
   return (
-    <div id="resume" className="row resume">
-      <div className="columns">
-        <h1>Hello, world!</h1>
-        <ul>
-          {
-            skills.map((skill, i) => (<li key={i}>{skill}</li>))
-          }
-        </ul>
-      </div>
+    <div id="resume" className="resume" itemType="http://schema.org/Person">
+      <Intro />
     </div>
   );
 }

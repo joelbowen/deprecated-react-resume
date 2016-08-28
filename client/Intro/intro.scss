@@ -1,0 +1,74 @@
+@import '../sass-components/settings';
+@import '../../node_modules/foundation-sites/scss/foundation';
+@import '../sass-components/shared';
+
+.intro {
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-top: 2rem;
+
+  @include breakpoint(small only) {
+    text-align: center;
+  } // small-only //
+
+  .title {
+    color: $teal;
+    font-weight: 300;
+    margin: 1.2rem 0 1rem;
+  } // title //
+
+  .contact {
+    white-space: nowrap;
+
+    a,
+    a:active,
+    a:visited {
+      color: $black-text;
+      text-decoration: none;
+    } // a, a:active, a:visited //
+
+    a:hover {
+      color: $black-text;
+      text-decoration: underline;
+    } // a:hover //
+
+  } // contact //
+
+  .photo {
+    position: relative;
+
+    img {
+      @include gray-border;
+      @include drop-shadow;
+      border-radius: 100%;
+      margin: -25vw auto 1rem;
+      width: 40vw;
+
+      @include breakpoint(medium) {
+        margin: -1rem 0 0 -1.5rem;
+        position: absolute;
+        width: 97%;
+      } // medium //
+
+    } // img //
+  } // photo //
+
+  .about {
+    @include breakpoint(medium) {
+      padding-left: 1.5rem;
+    } // medium //
+
+    h3 {
+      color: rgba($teal, .5);
+
+      @include breakpoint(small only) {
+        margin-top: 1rem;
+      } // small-only //
+    } // h3 //
+
+  } // about //
+
+  .takeaway {
+    @include sans-font-secondary;
+  } // takeaway //
+} // intro //
