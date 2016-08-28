@@ -1,0 +1,22 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include sans-font-secondary;
+} // headlines //
+
+h1 {
+  font-size: 2.5rem;
+} // h1 //
+
+h2 {
+  font-size: 1.3rem;
+} // h2 //
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+} // h3 //
