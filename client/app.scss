@@ -1,0 +1,18 @@
+@import 'sass-components/settings';
+@import 'sass-components/variables';
+@import '../node_modules/foundation-sites/scss/foundation';
+
+@include foundation-flex-classes;
+@include foundation-flex-grid;
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+} // html, body //
+
+body {
+  background: $black;
+} // body //
