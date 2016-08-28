@@ -27,6 +27,16 @@ module.exports = {
         include: APP_DIR,
         loader: 'babel',
       },
+      {
+        test: /\.scss$/,
+        include: APP_DIR,
+        loaders: [
+          'style',
+          'css',
+          'autoprefixer?browsers=last 3 versions',
+          'sass?outputStyle=expanded',
+        ],
+      },
     ],
   },
   plugins: [
@@ -40,4 +50,7 @@ module.exports = {
     }),
     new webpack.DefinePlugin(Object.assign(GLOBALS, { 'process.env.BROWSER': true })),
   ],
+  resolve: {
+    extensions: ['', '.js', '.jsx'],
+  },
 };
