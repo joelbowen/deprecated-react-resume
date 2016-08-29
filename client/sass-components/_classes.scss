@@ -3,3 +3,9 @@
   height: auto;
   max-width: 100%;
 } // img-responsive //
+
+@media all and (max-width: 499px) {
+  .hide-for-phone-only {
+    display: none;
+  }
+} // > 500 //

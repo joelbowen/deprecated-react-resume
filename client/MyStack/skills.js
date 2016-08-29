@@ -1,4 +1,4 @@
-const skills = [
+exports.all = [
   'JavaScript',
   'AngularJS',
   'HTML5',
@@ -6,6 +6,7 @@ const skills = [
   'Foundation',
   'Bootstrap',
   'ReactJS',
+  'Containerized Apps',
   'Node.js',
   'Express',
   'HIPAA',
@@ -19,9 +20,18 @@ const skills = [
   'PostgreSQL',
   'MongoDB',
   'REDIS',
+  'TDD',
   'MySQL',
+  'Progressive Mobile',
   'DynamoDB',
   'Elasticsearch',
+  'Server-less Architectures',
 ];
 
-export default skills;
+exports.other = [
+  'Amazon Web Services',
+  'Containerized Apps',
+  'TDD',
+  'Server-less Architectures',
+  'Progressive Mobile',
+];

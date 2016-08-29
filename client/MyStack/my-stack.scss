@@ -1,0 +1,15 @@
+@import '../sass-components/shared';
+
+.my-stack {
+  background: $blue-dark;
+  border-left: 4px solid rgba($black-absolute, .5);
+  border-right: 4px solid rgba($black-absolute, .5);
+  padding: 1.75rem 1.75rem .5rem;
+
+  .other-skills {
+    color: $white;
+    font-style: italic;
+    margin-top: 1rem;
+    text-align: center;
+  }
+} // my-stack //
