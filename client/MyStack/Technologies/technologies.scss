@@ -1,0 +1,96 @@
+@import '../../sass-components/shared';
+@import '../../../node_modules/foundation-sites/scss/foundation';
+
+
+$proficient-width: 37rem;
+$box-height: 4.5rem;
+
+.technologies {
+  margin-top: 2rem;
+
+  .mobile-title {
+    border-bottom: 1px solid rgba($white, .5);
+    color: $white;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    small { @include sans-font; }
+  } // mobile-title //
+
+  .stack-box {
+    @include gray-border;
+    background: $white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+    padding: 0;
+
+    .proficient,
+    .learning {
+      box-sizing: content-box;
+      flex: 0 0 100%;
+      margin-top: -1.75rem;
+      max-width: 100%;
+      padding: 1.5rem 0 0;
+    } // learning, proficient //
+
+    @include breakpoint(medium) {
+      height: $box-height;
+
+      .proficient {
+        border-right: 3px solid $gray-lightest;
+        flex: 0 0 $proficient-width;
+        height: $box-height;
+        max-width: $proficient-width;
+      } // proficient
+      .learning {
+        flex: 1;
+        height: $box-height;
+      } // learning //
+    } // medium //
+
+
+    h5 {
+      color: $white;
+      margin-top: -1.5rem;
+      text-align: center;
+    } // h5 //
+
+    .technology-list {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      margin: 0;
+      padding-left: .3rem;
+      padding-right: .3rem;
+
+      @include breakpoint(medium) {
+        padding-left: 0;
+      } // medium //
+    } // ul //
+  } // stack-box //
+
+  .stack {
+    color: $gray-dark;
+    display: flex;
+    margin: -.2rem;
+
+    .title {
+      @include sans-font-secondary;
+      background: $gray-lightest;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: .2rem .4rem;
+      text-transform: uppercase;
+    } // title //
+
+    .description {
+      align-items: center;
+      background: $white;
+      display: flex;
+      font-size: .75rem;
+      font-style: italic;
+      margin-left: .2rem;
+      padding: .2rem .4rem;
+    } // description //
+  } // stack //
+} // technologies //

@@ -1,0 +1,79 @@
+@import '../../sass-components/shared';
+@import '../../../node_modules/foundation-sites/scss/foundation';
+
+.technology {
+  align-items: flex-end;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 50%;
+  height: 8rem;
+  margin-bottom: -.1rem;
+  max-width: 50%;
+  padding: .5rem 0 0;
+  position: relative;
+
+  @include breakpoint(500) {
+    flex: 0 0 33%;
+    max-width: 33%;
+  } // 500 //
+
+  @include breakpoint(medium) {
+    flex: 0 0 16.666666667%;
+    height: 4.5rem;
+    margin-bottom: 0;
+    max-width: 16.666666667%;
+    padding: .3rem 0 .3rem .3rem;
+  } // medium //
+
+  hr {
+    border-bottom: 1px solid rgba($gray-dark, .25);
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    &:first-child { top: 15%; }
+    &:nth-child(2) { top: 45%; }
+    &:nth-child(3) { top: 75%; }
+  }
+
+  .knowledge {
+    @include gray-border;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: rgba($black-absolute, .5);
+    height: 0;
+    line-height: .85rem;
+    overflow: hidden;
+    padding: .35rem .25rem .2rem;
+    text-align: center;
+    text-shadow: .01rem .01rem .05rem rgba($white, .5);
+    transition: 1s height;
+    width: 100%;
+    z-index: 9;
+
+    @include breakpoint(medium) {
+      background-size: 100%;
+    } // medium //
+
+    &.light-text {
+      color: rgba($white, .5);
+      text-shadow: .01rem .01rem .05rem rgba($gray-dark, .5);
+    } // light-text //
+
+    .title {
+      font-size: .85rem;
+    } // title //
+
+    .subtitle {
+      font-size: .75rem;
+    } // subtitle //
+  } // knowledge //
+} // technology //
+
+@include breakpoint(medium) {
+  .learning .technology {
+    flex: 0 0 33%;
+    max-width: 33%;
+  } // learning technology //
+} // medium //

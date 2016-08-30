@@ -1,0 +1,24 @@
+@import 'sass-components/settings';
+@import '../node_modules/foundation-sites/scss/foundation';
+
+@include foundation-flex-classes;
+@include foundation-flex-grid;
+@include foundation-global-styles;
+@include foundation-menu;
+@include foundation-typography;
+@include foundation-visibility-classes;
+
+@import 'sass-components/shared';
+@import 'sass-components/typography';
+
+html {
+
+  @include breakpoint(medium only) {
+    font-size: 1.6666666667vw;
+  }
+
+} // html //
+
+body {
+  background: $black;
+} // body //

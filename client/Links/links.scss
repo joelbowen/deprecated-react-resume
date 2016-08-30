@@ -1,0 +1,23 @@
+@import '../sass-components/shared';
+@import '../sass-components/settings';
+@import '../../node_modules/foundation-sites/scss/foundation';
+
+.links {
+  background: $black-absolute;
+  border-bottom: .2rem solid $gray-dark;
+  border-top: .2rem solid $gray-dark;
+
+  @include breakpoint(large) {
+    margin-bottom: 2rem;
+  } // large //
+
+  .menu {
+    margin: 0 auto;
+
+    a {
+      color: rgba($white, .5);
+      font-size: 13px;
+      text-transform: uppercase;
+    } // a //
+  } // menu //
+} // links //

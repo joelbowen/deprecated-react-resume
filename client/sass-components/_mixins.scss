@@ -1,0 +1,15 @@
+@mixin sans-font {
+  font-family: 'Noto Sans', sans-serif;
+} // sans-font //
+
+@mixin sans-font-secondary {
+  font-family: 'Raleway', sans-serif;
+} // sans-font-secondary //
+
+@mixin gray-border {
+  border: .2rem solid $gray-lightest;
+} // gray-border //
+
+@mixin drop-shadow {
+  box-shadow: .1rem .1rem .2rem rgba($black, .2);
+} // drop-shadow //

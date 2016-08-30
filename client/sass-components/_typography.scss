@@ -1,0 +1,50 @@
+@import '../../node_modules/foundation-sites/scss/foundation';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include sans-font-secondary;
+} // headlines //
+
+h1 {
+  font-size: 2.5rem;
+} // h1 //
+
+h2 {
+  font-size: 1.3rem;
+} // h2 //
+
+h3 {
+  border-bottom: 1px solid;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1rem 0 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+
+  @include breakpoint(medium) {
+    margin: 0 0 .5rem;
+    text-align: left;
+  } // medium //
+} // h3 //
+
+h5 {
+  font-size: .85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+} // h5 //
+
+.italic {
+  font-style: italic;
+} // italic //
+
+ul {
+  margin-left: 1rem;
+
+  &.unstyled {
+    list-style-type: none;
+  }
+} // ul //
