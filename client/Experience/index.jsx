@@ -6,8 +6,8 @@ import './experience.scss';
 
 function Position({ position }) {
   return (
-    <div className="position">
-      <strong>{ position.title }, { position.company }</strong>
+    <div className="position" itemScope itemProp="worksFor" itemType="http://schema.org/Organization">
+      <strong>{ position.title }, <span itemProp="name">{ position.company }</span></strong>
       <ul className="unstyled">
         <li className="italic">
           { position.startDate } - { position.endDate }, { position.shortDescription}

@@ -6,11 +6,11 @@ import './education.scss';
 
 function Institution({ item }) {
   return (
-    <div>
+    <div itemProp="alumniOf" itemScope itemType="http://schema.org/CollegeOrUniversity">
       <strong>{ item.degree }</strong>
       <ul className="unstyled">
         <li className="italic">
-          { item.institution }, { item.startDate } - { item.endDate }
+          <span itemProp="name">{ item.institution }</span>, { item.startDate } - { item.endDate }
         </li>
         <li>
           { item.details }
