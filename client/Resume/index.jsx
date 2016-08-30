@@ -21,6 +21,14 @@ function Resume() {
           <Education />
         </div>
       </div>
+      <div className="row small-collapse built-with">
+        <div className="columns">
+          <p>
+            Lovingly built with with ReactJS, Babel + ESLint, Webpack, SASS, and hosted on S3 <br />
+            See the code <a href="https://github.com/joelbowen/react-resume">here</a>.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

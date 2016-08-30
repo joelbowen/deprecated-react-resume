@@ -2,6 +2,7 @@
 import 'babel-polyfill';
 import React from 'react';
 import { render } from 'react-dom';
+import Links from './Links';
 import Resume from './Resume';
 
 import './app.scss';
@@ -9,7 +10,10 @@ import './app.scss';
 /* Components */
 const App = function () {
   return (
-    <Resume />
+    <div className="app-wraper">
+      <Links />
+      <Resume />
+    </div>
   );
 };
 
