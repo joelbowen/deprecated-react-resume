@@ -1,20 +1,15 @@
 @import '../sass-components/shared';
 @import '../../node_modules/foundation-sites/scss/foundation';
 
-.my-stack {
-  background: $blue-dark;
+.accomplishments {
+  background: $blue;
   border-left: 4px solid rgba($black-absolute, .5);
   border-right: 4px solid rgba($black-absolute, .5);
+  color: $white;
   padding: $content-padding-mobile $content-padding-mobile .5rem;
 
   @include breakpoint(medium) {
+    border-left: 0;
     padding: $content-padding $content-padding .5rem;
   } // medium //
-
-  .other-skills {
-    color: $white;
-    font-style: italic;
-    margin-top: 1rem;
-    text-align: center;
-  } // other-skills //
-} // my-stack //
+} // accomplishments //
