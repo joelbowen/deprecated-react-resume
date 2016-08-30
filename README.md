@@ -1,6 +1,6 @@
 # Well hello there!
 
-_All parts of this project, excluding node modules, were written line-by-line by yours truly in order to show learning and proficiency_
+_All parts of this project, excluding node modules, were written line-by-line by yours truly without generators in order to show learning and proficiency_
 
 ## Developing
 

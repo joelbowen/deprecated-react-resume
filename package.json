@@ -1,7 +1,7 @@
 {
   "name": "live-resume",
   "version": "1.0.0",
-  "description": "A simple recreation of my resume for simple sharing",
+  "description": "A simple ReactJS app of my resume",
   "main": "index.js",
   "scripts": {
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server --inline --content-base client/",
