@@ -6,6 +6,7 @@
   border-left: 4px solid rgba($black-absolute, .5);
   border-right: 4px solid rgba($black-absolute, .5);
   color: $white;
+  flex: 1;
   padding: $content-padding-mobile $content-padding-mobile .5rem;
 
   @include breakpoint(medium) {

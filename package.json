@@ -1,6 +1,6 @@
 {
   "name": "live-resume",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple ReactJS app of my resume",
   "main": "index.js",
   "scripts": {
