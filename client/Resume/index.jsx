@@ -4,13 +4,16 @@ import MyStack from '../MyStack';
 import Experience from '../Experience';
 import Accomplishments from '../Accomplishments';
 import Education from '../Education';
+
 import './resume.scss';
+
+const ResumeData = require('../assets/resume.json');
 
 /* Component */
 function Resume() {
   return (
     <div id="resume" className="resume" itemType="http://schema.org/Person">
-      <Intro />
+      <Intro basics={ResumeData.basics} />
       <MyStack />
       <div className="row small-collapse">
         <div className="small-10 medium-5 columns fill-stack">

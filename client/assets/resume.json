@@ -1,0 +1,15 @@
+{
+  "basics": {
+    "name": "Joel Bowen",
+    "title": "Full-Stack Developer",
+    "tagline": "Passionate about JavaScript",
+    "phone": "803.526.9566",
+    "email": "contact@joelbowen.com",
+    "highlights": [
+      "I am passionate about people",
+      "I love scalability, user-experience, security, and design patterns",
+      "I am a left-brain thinker with right-brain power"
+    ],
+    "picture": "https://s3.amazonaws.com/joelbowen.com/joel-bowen.jpg"
+  }
+}
