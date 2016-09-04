@@ -13,8 +13,8 @@
   position: relative;
 
   @include breakpoint(500) {
-    flex: 0 0 33%;
-    max-width: 33%;
+    flex: 0 0 33.333333333%;
+    max-width: 33.333333333%;
   } // 500 //
 
   @include breakpoint(medium) {

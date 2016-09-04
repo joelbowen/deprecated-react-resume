@@ -94,3 +94,47 @@ $box-height: 4.5rem;
     } // description //
   } // stack //
 } // technologies //
+
+@media all and(max-width: 499px) {
+  .technology-list {
+    li:nth-last-child(1):nth-child(odd) {
+      flex: 0 0 100%;
+      max-width: 100%;
+      .knowledge { width: 50%; }
+    } // li //
+  } // technology-list //
+} // small only
+
+@media all and (min-width: 500px) {
+  .proficient {
+    li:nth-last-child(1):nth-child(odd) {
+      flex: 0 0 66.666666666%;
+      max-width: 66.666666666%;
+      .knowledge { width: 50%; }
+    } // li //
+  } // proficient //
+  .learning {
+    li:nth-last-child(1):nth-child(even) {
+      flex: 0 0 66.666666666%;
+      max-width: 66.666666666%;
+      .knowledge { width: 50%; }
+    } // li //
+  } // proficient //
+} // 500+ //
+
+@include breakpoint(medium) {
+  .proficient {
+    li:nth-last-child(1):nth-child(odd) {
+      flex: 0 0 33.333333334%;
+      max-width: 33.333333334%;
+      .knowledge { width: 50%; }
+    } // li //
+  } // proficient //
+  .learning {
+    li:nth-last-child(1):nth-child(even) {
+      flex: 0 0 66.666666666%;
+      max-width: 66.666666666%;
+      .knowledge { width: 50%; }
+    } // li //
+  } // proficient //
+} // 500+ //
