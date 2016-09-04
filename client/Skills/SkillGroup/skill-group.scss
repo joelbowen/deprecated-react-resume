@@ -5,7 +5,7 @@
 $proficient-width: 37rem;
 $box-height: 4.5rem;
 
-.technologies {
+.skill-group {
   margin-top: 2rem;
 
   .mobile-title {
@@ -72,7 +72,7 @@ $box-height: 4.5rem;
   .stack {
     color: $gray-dark;
     display: flex;
-    margin: -.2rem;
+    margin: -.2rem -.2rem -.2rem -.15rem;
 
     .title {
       @include sans-font-secondary;
@@ -90,7 +90,7 @@ $box-height: 4.5rem;
       font-size: .75rem;
       font-style: italic;
       margin-left: .2rem;
-      padding: .2rem .4rem;
+      padding: .2rem .6rem .2rem .4rem;
     } // description //
   } // stack //
 } // technologies //

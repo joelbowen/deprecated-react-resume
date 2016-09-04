@@ -1,6 +1,6 @@
 import React from 'react';
 import Intro from '../Intro';
-import MyStack from '../MyStack';
+import Skills from '../Skills';
 import Experience from '../Experience';
 import Accomplishments from '../Accomplishments';
 import Education from '../Education';
@@ -14,7 +14,7 @@ function Resume() {
   return (
     <div id="resume" className="resume" itemType="http://schema.org/Person">
       <Intro basics={ResumeData.basics} />
-      <MyStack />
+      <Skills skills={ResumeData.skills} />
       <div className="row small-collapse">
         <div className="small-10 medium-5 columns fill-stack">
           <Experience />

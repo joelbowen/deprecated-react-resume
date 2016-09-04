@@ -1,7 +1,7 @@
 @import '../../sass-components/shared';
 @import '../../../node_modules/foundation-sites/scss/foundation';
 
-.technology {
+.skill {
   align-items: flex-end;
   box-sizing: border-box;
   display: flex;
@@ -72,7 +72,7 @@
 } // technology //
 
 @include breakpoint(medium) {
-  .learning .technology {
+  .learning .skill {
     flex: 0 0 33%;
     max-width: 33%;
   } // learning technology //
