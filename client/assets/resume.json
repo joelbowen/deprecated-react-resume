@@ -2,7 +2,7 @@
   "basics": {
     "name": "Joel Bowen",
     "title": "Full-Stack Developer",
-    "tagline": "Passionate about JavaScript",
+    "tagline": "JavaScript Was My First Love",
     "phone": "803.526.9566",
     "email": "contact@joelbowen.com",
     "highlights": [
@@ -37,6 +37,7 @@
       "type": "front-end"
   	}, {
   		"name": "CSS3",
+      "subtitle": "+SASS, LESS",
   		"proficiency": 85,
   		"class": "light-text",
   		"hue": "#2285c7",
@@ -251,9 +252,10 @@
       "company": "Galvanize Labs, Inc.",
       "startDate": "June 2013",
       "endDate": "June 2016",
-      "summary": "Distributed Systems Dev",
+      "summary": "Distributed Systems Development",
       "highlights": [
-        "Elementary Education Technology"
+        "Elementary Education Technology",
+        "DevOps"
       ]
     },
     {
@@ -294,7 +296,11 @@
       "company": "GLS",
       "startDate": "April 2010",
       "endDate": "September 2010",
-      "summary": "CISCO Networking"
+      "summary": "CISCO Networking",
+      "highlights": [
+        "Remote Network Management",
+        "Technical Support"
+      ]
     }
   ],
   "education": [
