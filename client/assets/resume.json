@@ -314,5 +314,37 @@
       "endDate": "2008"
     }
   ],
+  "volunteer": [
+    {
+      "organization": "SIGGRAPH",
+      "position": "Volunteer",
+      "summary": "Special Exposure To Emerging Technology"
+    }
+  ],
+  "training": [
+    {
+      "name": "Adaptive Path UX Intensive",
+      "summary": "4-Day Intensive, UX Design Process & Principles"
+    }
+  ],
+  "accomplishments": [
+    {
+      "name": "Large Scale DevOps",
+      "highlights": [
+        "Coordinated Multiple National Rollouts",
+        "Support >1K Concurrent Users"
+      ]
+    },
+    {
+      "name": "Special Projects",
+      "highlights": [
+        "HIPAA Compliant Platforms",
+        "Schema-less Content Management (Node.js)",
+        "Code Deployment (Git + Linux)",
+        "Data Driven Dashboards (Node.js, AngularJS)",
+        "Scalable Management Platforms (Node.js)",
+        "Unity 3D + WebGL, Web & Chromebook (AngularJS)"
+      ]
+    }
   ]
 }

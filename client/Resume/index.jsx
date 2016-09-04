@@ -20,7 +20,11 @@ function Resume() {
           <Experience work={ResumeData.work} />
         </div>
         <div className="small-10 medium-5 columns fill-stack">
-          <Accomplishments />
+          <Accomplishments
+            volunteer={ResumeData.volunteer}
+            training={ResumeData.training}
+            accomplishments={ResumeData.accomplishments}
+          />
           <Education education={ResumeData.education} />
         </div>
       </div>
