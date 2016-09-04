@@ -1,13 +1,11 @@
 import React from 'react';
 
-import education from './data.js';
-
 import './education.scss';
 
 function Institution({ item }) {
   return (
     <div itemProp="alumniOf" itemScope itemType="http://schema.org/CollegeOrUniversity">
-      <strong>{ item.degree }</strong>
+      <strong>{ item.studyType }, { item.area}</strong>
       <ul className="unstyled">
         <li className="italic">
           <span itemProp="name">{ item.institution }</span>, { item.startDate } - { item.endDate }
@@ -21,19 +19,21 @@ function Institution({ item }) {
 }
 
 Institution.propTypes = {
-  item: React.PropTypes.object,
+  item: React.PropTypes.object.isRequired,
 };
 
 /* Component */
-function Education() {
+function Education({ education }) {
   return (
     <div className="education">
       <h3>Education</h3>
-      {
-        education.map((e, i) => <Institution key={i} item={e} />)
-      }
+      { education.map((e, i) => <Institution key={i} item={e} />) }
     </div>
   );
 }
+
+Education.propTypes = {
+  education: React.PropTypes.array.isRequired,
+};
 
 export default Education;

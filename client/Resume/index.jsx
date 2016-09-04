@@ -21,7 +21,7 @@ function Resume() {
         </div>
         <div className="small-10 medium-5 columns fill-stack">
           <Accomplishments />
-          <Education />
+          <Education education={ResumeData.education} />
         </div>
       </div>
       <div className="row small-collapse built-with">
