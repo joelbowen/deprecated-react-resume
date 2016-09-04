@@ -17,7 +17,7 @@ function Resume() {
       <Skills skills={ResumeData.skills} />
       <div className="row small-collapse">
         <div className="small-10 medium-5 columns fill-stack">
-          <Experience />
+          <Experience work={ResumeData.work} />
         </div>
         <div className="small-10 medium-5 columns fill-stack">
           <Accomplishments />

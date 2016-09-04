@@ -223,5 +223,78 @@
       "level": "proficient",
       "type": "Other"
     }
+  ],
+  "work": [
+    {
+      "position": "Consultant",
+      "company": "Myjive, Inc.",
+      "startDate": "March 2016",
+      "endDate": "Present",
+      "highlights": [
+        "Hybrid Mobile Development",
+        "HIPAA Compliance"
+      ]
+    },
+    {
+      "position": "Owner",
+      "company": "Etisys Solutions, LLC",
+      "startDate": "June 2015",
+      "endDate": "Present",
+      "summary": "Full-Stack Development",
+      "highlights": [
+        "Small Business Solutions",
+        "HIPAA Compliance"
+      ]
+    },
+    {
+      "position": "Vice President, ID",
+      "company": "Galvanize Labs, Inc.",
+      "startDate": "June 2013",
+      "endDate": "June 2016",
+      "summary": "Distributed Systems Dev",
+      "highlights": [
+        "Elementary Education Technology"
+      ]
+    },
+    {
+      "position": "Owner",
+      "company": "Joel Bowen Designs",
+      "startDate": "July 2005",
+      "endDate": "June 2015",
+      "summary": "Full-Stack Development",
+      "highlights": [
+        "Small Business Support",
+        "Design Services"
+      ]
+    },
+    {
+      "position": "Project Coordinator",
+      "company": "Best Buy, Inc.",
+      "startDate": "November 2010",
+      "endDate": "May 2013",
+      "summary": "Full-Stack Development",
+      "highlights": [
+        "Geek Squad Academy",
+        "Children’s Education"
+      ]
+    },
+    {
+      "position": "Counter Intelligence Agent",
+      "company": "Geek Squad",
+      "startDate": "August 2008",
+      "endDate": "November 2010",
+      "summary": "IT & Hardware",
+      "highlights": [
+        "Technical Troubleshooting",
+        "Customer Service"
+      ]
+    },
+    {
+      "position": "Network Operations Specialist",
+      "company": "GLS",
+      "startDate": "April 2010",
+      "endDate": "September 2010",
+      "summary": "CISCO Networking"
+    }
   ]
 }
