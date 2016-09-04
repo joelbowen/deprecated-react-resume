@@ -37,6 +37,11 @@ module.exports = {
           'sass?outputStyle=expanded',
         ],
       },
+      {
+        test: /\.json$/,
+        include: APP_DIR,
+        loader: 'json-loader',
+      },
     ],
   },
   plugins: [
