@@ -50,4 +50,4 @@ _You'll need the following installed at the global level `npm i -g`_
 [webpack]: https://github.com/webpack/webpack
 [eslint-config-airbnb]: https://github.com/airbnb/javascript
 
-_Built with Built with Node 6.4.0 and npm 3.10.6_
+_Built with Node 6.4.0 and npm 3.10.6_
