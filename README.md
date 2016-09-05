@@ -39,4 +39,4 @@ _An overview of the packages used to create this project, and why they were incl
 [webpack]: https://github.com/webpack/webpack
 [eslint-config-airbnb]: https://github.com/airbnb/javascript
 
-_Built with Built with Node 6.4.0 and npm 3.10.6_
+_Built with Node 6.4.0 and npm 3.10.6_
