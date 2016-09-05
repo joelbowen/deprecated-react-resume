@@ -1,19 +1,17 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 const path = require('path');
 
 const APP_DIR = path.resolve(__dirname, 'client');
 const BUILD_DIR = path.resolve(__dirname, 'dist');
-const DEBUG = process.argv.indexOf('--release') === -1;
-const GLOBALS = {
-  'process.env.NODE_ENV': DEBUG ? '"development"' : '"production"',
-};
 
 module.exports = {
-  entry: `${APP_DIR}/app.jsx`,
+  entry: {
+    app: [`${APP_DIR}/app.jsx`],
+  },
   output: {
-    path: `${BUILD_DIR}/assets/`,
-    publicPath: '/assets/',
-    filename: 'app.js',
+    path: `${BUILD_DIR}`,
+    filename: 'assets/app.js',
   },
   module: {
     loaders: [
@@ -42,9 +40,17 @@ module.exports = {
         include: APP_DIR,
         loader: 'json-loader',
       },
+      {
+        test: /\.html$/,
+        loader: 'html',
+      },
     ],
   },
   plugins: [
+    new HtmlWebpackPlugin({
+      template: `${APP_DIR}/template.html`,
+      filename: 'index.html',
+    }),
     new webpack.optimize.UglifyJsPlugin({
       compress: {
         warnings: false,
@@ -53,7 +59,6 @@ module.exports = {
         comments: false,
       },
     }),
-    new webpack.DefinePlugin(Object.assign(GLOBALS, { 'process.env.BROWSER': true })),
   ],
   resolve: {
     extensions: ['', '.js', '.jsx'],
