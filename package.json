@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server --inline --content-base client/",
-    "build": "rm -rf dist/* && cp -a client/{index.html,assets} dist/ && webpack --release",
+    "build": "rm -rf dist/* && cp -a client/assets dist/ && webpack --release",
     "dist": "pushd ./dist; python ../server.py",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -34,6 +34,8 @@
     "eslint-plugin-react": "^6.1.2",
     "file-loader": "^0.9.0",
     "foundation-sites": "^6.2.3",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.22.0",
     "json-loader": "^0.5.4",
     "node-sass": "^3.8.0",
     "postcss-loader": "^0.11.0",
