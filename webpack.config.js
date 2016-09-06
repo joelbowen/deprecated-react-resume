@@ -48,7 +48,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: `${APP_DIR}/template.html`,
+      template: `${BUILD_DIR}/index.html`,
       filename: 'index.html',
     }),
     new webpack.optimize.UglifyJsPlugin({

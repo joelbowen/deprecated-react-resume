@@ -11,4 +11,5 @@ gulp.task('build', [
   'clean:dist',
   'copy:dist',
   'webpack:build',
+  'inject:json-ld',
 ]);
