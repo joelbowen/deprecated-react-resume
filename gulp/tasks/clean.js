@@ -1,9 +1,6 @@
 const gulp = require('gulp');
-const clean = require('gulp-clean');
+const del = require('del');
 
 const gulpConfig = require('../shared/config')();
 
-gulp.task('clean:dist', () =>
-  gulp.src(`${gulpConfig.dist}/*`, { read: false })
-    .pipe(clean())
-);
+gulp.task('clean:dist', () => del([`${gulpConfig.dist}/**/*`]));
