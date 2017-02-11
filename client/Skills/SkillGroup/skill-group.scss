@@ -114,10 +114,17 @@ $box-height: 4.5rem;
     } // li //
   } // proficient //
   .learning {
-    li:nth-last-child(1):nth-child(even) {
-      flex: 0 0 66.666666666%;
-      max-width: 66.666666666%;
-      .knowledge { width: 50%; }
+    li {
+      &:nth-last-child(1):nth-child(even) {
+        flex: 0 0 66.666666666%;
+        max-width: 66.666666666%;
+        .knowledge { width: 50%; }
+      }
+      &:nth-last-child(1):first-child {
+        flex: 0 0 100%;
+        max-width: 100%;
+        .knowledge { width: 33%; }
+      }
     } // li //
   } // proficient //
 } // 500+ //
@@ -131,10 +138,17 @@ $box-height: 4.5rem;
     } // li //
   } // proficient //
   .learning {
-    li:nth-last-child(1):nth-child(even) {
-      flex: 0 0 66.666666666%;
-      max-width: 66.666666666%;
-      .knowledge { width: 50%; }
-    } // li //
+    li {
+      &:nth-last-child(1):nth-child(even) {
+        flex: 0 0 66.666666666%;
+        max-width: 66.666666666%;
+        .knowledge { width: 50%; }
+      }
+      &:nth-last-child(1):first-child {
+        flex: 0 0 100%;
+        max-width: 100%;
+        .knowledge { width: 33%; }
+      }
+    }
   } // proficient //
 } // 500+ //
