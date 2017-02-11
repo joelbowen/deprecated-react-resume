@@ -2,14 +2,16 @@ import React from 'react';
 import SkillGroup from './SkillGroup';
 import './skills.scss';
 
+const getSkill = (skills, type) => skills.filter((s) => s.type === type)
+                                         .sort((a, b) => a.proficiency < b.proficiency);
 /* Component */
 function Skills({ skills }) {
-  const frontEndSkills = skills.filter((s) => s.type === 'front-end');
-  const serverSideSkills = skills.filter((s) => s.type === 'server-side');
-  const databaseSkills = skills.filter((s) => s.type === 'database');
-  const otherSkills = skills
-    .filter((s) => s.type === 'DevOps' || s.type === 'Other')
-    .map((s) => s.name);
+  const frontEndSkills = getSkill(skills, 'front-end');
+  const serverSideSkills = getSkill(skills, 'server-side');
+  const databaseSkills = getSkill(skills, 'database');
+  const devOpsSkills = getSkill(skills, 'DevOps');
+  const otherSkills = getSkill(skills, 'Other');
+  const devOpsOtherSkills = devOpsSkills.concat(otherSkills).map((s) => s.name);
   return (
     <div className="skills">
       <SkillGroup
@@ -28,7 +30,7 @@ function Skills({ skills }) {
         description="4-Years PostgreSQL, MongoDB, REDIS, and 8-Years MySQL"
       />
       <p className="other-skills">
-        OTHER SKILLS: { otherSkills.join(', ') }
+        OTHER SKILLS: { devOpsOtherSkills.join(', ') }
       </p>
     </div>
   );

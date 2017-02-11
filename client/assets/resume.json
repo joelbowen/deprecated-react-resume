@@ -8,7 +8,7 @@
     "highlights": [
       "I am passionate about people",
       "I love scalability, user-experience, security, and design patterns",
-      "I am a left-brain thinker with right-brain power"
+      "I am a left-brain thinker with right-brain vision"
     ],
     "picture": "https://s3.amazonaws.com/joelbowen.com/joel-bowen.jpg"
   },
@@ -22,26 +22,10 @@
       "level": "proficient",
       "type": "front-end"
   	}, {
-  		"name": "AngularJS",
+  		"name": "Angular 1.x",
   		"proficiency": 90,
   		"hue": "#e52f30",
   		"image": "/assets/images/angular.gif",
-      "level": "proficient",
-      "type": "front-end"
-  	}, {
-  		"name": "HTML5",
-  		"proficiency": 85,
-  		"hue": "#f16723",
-  		"image": "/assets/images/html5.gif",
-      "level": "proficient",
-      "type": "front-end"
-  	}, {
-  		"name": "CSS3",
-      "subtitle": "+SASS, LESS",
-  		"proficiency": 85,
-  		"class": "light-text",
-  		"hue": "#2285c7",
-  		"image": "/assets/images/css3.gif",
       "level": "proficient",
       "type": "front-end"
   	}, {
@@ -65,7 +49,7 @@
   		"proficiency": 85,
   		"hue": "#f1dd3f",
   		"image": "/assets/images/js.gif",
-      "level": "learning",
+      "level": "proficient",
       "type": "front-end"
   	}, {
       "name": "Progressive",
@@ -77,11 +61,11 @@
       "class": "light-text"
     }, {
   		"name": "TypeScript",
-  		"proficiency": 50,
+  		"proficiency": 80,
   		"hue": "#2e67b1",
   		"class": "light-text",
   		"image": "/assets/images/ts.gif",
-      "level": "learning",
+      "level": "proficient",
       "type": "front-end"
   	}, {
     	"name": "Node.js",
@@ -121,14 +105,6 @@
     	"hue": "#ffcf24",
     	"image": "/assets/images/python.gif",
       "level": "proficient",
-      "type": "server-side"
-    }, {
-    	"name": "Functional",
-    	"subtitle": "JavaScript",
-    	"proficiency": 85,
-    	"hue": "#f1dd3f",
-    	"image": "/assets/images/js.gif",
-      "level": "learning",
       "type": "server-side"
     }, {
     	"name": "Go",
@@ -226,11 +202,22 @@
     }
   ],
   "work": [
+
+    {
+      "position": "Senior Software Engineer",
+      "company": "Skookum Digital Works",
+      "startDate": "September 2016",
+      "endDate": "Present",
+      "highlights": [
+        "Javascript Development",
+        "Multi-Industry Exposure"
+      ]
+    },
     {
       "position": "Consultant",
       "company": "Myjive, Inc.",
       "startDate": "March 2016",
-      "endDate": "Present",
+      "endDate": "September 2016",
       "highlights": [
         "Hybrid Mobile Development",
         "HIPAA Compliance"
@@ -238,24 +225,22 @@
     },
     {
       "position": "Owner",
-      "company": "Etisys Solutions, LLC",
+      "company": "TL;DR Software",
       "startDate": "June 2015",
       "endDate": "Present",
-      "summary": "Full-Stack Development",
       "highlights": [
         "Small Business Solutions",
         "HIPAA Compliance"
       ]
     },
     {
-      "position": "Vice President, ID",
+      "position": "VP Information Design",
       "company": "Galvanize Labs, Inc.",
       "startDate": "June 2013",
       "endDate": "June 2016",
-      "summary": "Distributed Systems Development",
       "highlights": [
-        "Elementary Education Technology",
-        "DevOps"
+        "Elementary Ed Technology",
+        "Distributed DevOps"
       ]
     },
     {
@@ -263,9 +248,8 @@
       "company": "Joel Bowen Designs",
       "startDate": "July 2005",
       "endDate": "June 2015",
-      "summary": "Full-Stack Development",
       "highlights": [
-        "Small Business Support",
+        "Full Stack Development",
         "Design Services"
       ]
     },
@@ -277,21 +261,9 @@
       "summary": "Full-Stack Development",
       "highlights": [
         "Geek Squad Academy",
-        "Children’s Education"
+        "Enterprise Integrations"
       ]
-    },
-    {
-      "position": "Counter Intelligence Agent",
-      "company": "Geek Squad",
-      "startDate": "August 2008",
-      "endDate": "November 2010",
-      "summary": "IT & Hardware",
-      "highlights": [
-        "Technical Troubleshooting",
-        "Customer Service"
-      ]
-    },
-    {
+    }, {
       "position": "Network Operations Specialist",
       "company": "GLS",
       "startDate": "April 2010",
