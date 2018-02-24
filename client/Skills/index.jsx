@@ -15,7 +15,7 @@ function Skills({ skills }) {
   const devOpsSkills = getSkill(skills, 'DevOps')
   const otherSkills = getSkill(skills, 'Other')
   const devOpsOtherSkills = devOpsSkills.concat(otherSkills).map(s => s.name)
-  const yearsExp = moment().diff('08-01-2004', 'years')
+  const yearsExp = moment().diff('2004-08-01', 'years')
   const frontEndDesc = `${yearsExp}-Years HTML/CSS, ${yearsExp -
     3}-Years JavaScript`
   const serverSideDesc = `${yearsExp -
