@@ -55,6 +55,7 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.13.0",
+    "gulp-favicons": "^2.2.7",
     "moment": "^2.20.1",
     "node-sass": "^4.5.0",
     "react": "^15.3.1",
