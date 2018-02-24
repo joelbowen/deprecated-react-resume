@@ -16,14 +16,14 @@ gulp.task('favicons', () =>
         url: 'http://joelbowen.com/',
         display: 'standalone',
         orientation: 'portrait',
-        start_url: null,
+        start_url: '/',
         version: 1.0,
         logging: false,
         online: false,
-        html: `index.html`,
+        html: 'index.html',
         pipeHTML: true,
         replace: true,
-        themeColor: '#06BFEA'
+        theme_color: '#06BFEA'
       })
     )
     .on('error', gutil.log)
