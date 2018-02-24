@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Joel Bowen",
-    "title": "Full-Stack Developer",
+    "title": "Full-Stack Engineer",
     "tagline": "JavaScript Was My First Love",
     "phone": "803.526.9566",
     "email": "contact@joelbowen.com",
@@ -14,244 +14,267 @@
   },
   "skills": [
     {
-  		"name": "JavaScript",
-  		"subtitle": "VANILLA",
-  		"proficiency": 100,
-  		"hue": "#f1dd3f",
-  		"image": "/assets/images/js.gif",
+      "name": "JavaScript",
+      "subtitle": "functional",
+      "proficiency": 100,
+      "hue": "#f1dd3f",
       "level": "proficient",
       "type": "front-end"
-  	}, {
-  		"name": "Angular 1.x",
-  		"proficiency": 90,
-  		"hue": "#e52f30",
-  		"image": "/assets/images/angular.gif",
+    },
+    {
+      "name": "React",
+      "subtitle": "DOM & Native",
+      "proficiency": 100,
+      "hue": "#6bccef",
+      "image": "/assets/images/reactjs.gif",
       "level": "proficient",
       "type": "front-end"
-  	}, {
-  		"name": "Foundation +Bootstrap",
-  		"proficiency": 85,
-  		"class": "light-text",
-  		"hue": "#614789",
-  		"image": "/assets/images/bootstrap.gif",
-      "level": "proficient",
-      "type": "front-end"
-  	}, {
-  		"name": "ReactJS",
-  		"proficiency": 65,
-  		"hue": "#6bccef",
-  		"image": "/assets/images/reactjs.gif",
-      "level": "proficient",
-      "type": "front-end"
-  	},{
-  		"name": "Functional",
-  		"subtitle": "JavaScript",
-  		"proficiency": 85,
-  		"hue": "#f1dd3f",
-  		"image": "/assets/images/js.gif",
-      "level": "proficient",
-      "type": "front-end"
-  	}, {
-      "name": "Progressive",
-      "subtitle": "Mobile",
-      "proficiency": 70,
+    },
+    {
+      "name": "Progressive Mobile",
+      "proficiency": 100,
       "hue": "#3367d6",
-      "level": "learning",
+      "level": "proficient",
       "type": "front-end",
       "class": "light-text"
-    }, {
-  		"name": "TypeScript",
-  		"proficiency": 80,
-  		"hue": "#2e67b1",
-  		"class": "light-text",
-  		"image": "/assets/images/ts.gif",
+    },
+    {
+      "name": "TypeScript",
+      "proficiency": 100,
+      "hue": "#2e67b1",
+      "class": "light-text",
+      "image": "/assets/images/ts.gif",
       "level": "proficient",
       "type": "front-end"
-  	}, {
-    	"name": "Node.js",
-    	"subtitle": "ES6 => Babel",
-    	"proficiency": 100,
-    	"hue": "#83c340",
-    	"image": "/assets/images/node.gif",
+    },
+    {
+      "name": "Foundation / Bootstrap",
+      "proficiency": 100,
+      "class": "light-text",
+      "hue": "#614789",
+      "image": "/assets/images/bootstrap.gif",
+      "level": "proficient",
+      "type": "front-end"
+    },
+    {
+      "name": "GraphQL",
+      "proficiency": 70,
+      "hue": "#2e67b1",
+      "class": "light-text",
+      "level": "learning",
+      "type": "front-end"
+    },
+    {
+      "name": "Elm",
+      "proficiency": 70,
+      "hue": "#7dd22a",
+      "level": "learning",
+      "type": "front-end"
+    },
+    {
+      "name": "Angular",
+      "subtitle": "1.x",
+      "proficiency": 100,
+      "hue": "#e52f30",
+      "image": "/assets/images/angular.gif",
+      "level": "proficient",
+      "type": "front-end"
+    },
+    {
+      "name": "Node.js",
+      "proficiency": 100,
+      "hue": "#83c340",
+      "image": "/assets/images/node.gif",
       "level": "proficient",
       "type": "server-side"
-    }, {
-    	"name": "Express",
-    	"proficiency": 90,
-    	"class": "light-text",
-    	"hue": "#323231",
-    	"image": "/assets/images/express.gif",
+    },
+    {
+      "name": "Lambda",
+      "subtitle": "serverless",
+      "proficiency": 100,
+      "hue": "#f58426",
+      "image": "/assets/images/lambda.gif",
       "level": "proficient",
       "type": "server-side"
-    }, {
-    	"name": "Lambda",
-    	"subtitle": "No-Server",
-    	"proficiency": 85,
-    	"hue": "#f58426",
-    	"image": "/assets/images/lambda.gif",
+    },
+    {
+      "name": "Docker",
+      "proficiency": 100,
+      "class": "light-text",
+      "hue": "#0099c7",
       "level": "proficient",
       "type": "server-side"
-    }, {
-    	"name": "PHP",
-    	"proficiency": 75,
-    	"hue": "#617abb",
-    	"class": "light-text",
-    	"image": "/assets/images/php.gif",
+    },
+    {
+      "name": "GraphQL",
+      "proficiency": 100,
+      "hue": "#2e67b1",
+      "class": "light-text",
       "level": "proficient",
       "type": "server-side"
-    }, {
-    	"name": "Python",
-    	"proficiency": 50,
-    	"hue": "#ffcf24",
-    	"image": "/assets/images/python.gif",
+    },
+    {
+      "name": "PHP",
+      "subtitle": "(deprecating)",
+      "proficiency": 75,
+      "hue": "#617abb",
+      "class": "light-text",
+      "image": "/assets/images/php.gif",
       "level": "proficient",
       "type": "server-side"
-    }, {
-    	"name": "Go",
-    	"proficiency": 45,
-    	"hue": "#70ccdc",
-    	"image": "/assets/images/go.gif",
+    },
+    {
+      "name": "Python",
+      "proficiency": 50,
+      "hue": "#ffcf24",
+      "image": "/assets/images/python.gif",
+      "level": "proficient",
+      "type": "server-side"
+    },
+    {
+      "name": "Go",
+      "proficiency": 45,
+      "hue": "#70ccdc",
+      "image": "/assets/images/go.gif",
       "level": "learning",
       "type": "server-side"
-    }, {
-    	"name": "Ruby",
-    	"proficiency": 45,
-    	"class": "light-text",
-    	"hue": "#bb2326",
-    	"image": "/assets/images/ruby.gif",
+    },
+    {
+      "name": "Ruby",
+      "proficiency": 45,
+      "class": "light-text",
+      "hue": "#bb2326",
+      "image": "/assets/images/ruby.gif",
       "level": "learning",
       "type": "server-side"
-    }, {
-    	"name": "PostgreSQL",
-    	"proficiency": 100,
-    	"class": "light-text",
-    	"hue": "#2e6094",
-    	"image": "/assets/images/postgresql.gif",
+    },
+    {
+      "name": "PostgreSQL",
+      "proficiency": 100,
+      "class": "light-text",
+      "hue": "#2e6094",
+      "image": "/assets/images/postgresql.gif",
       "level": "proficient",
       "type": "database"
-    }, {
-    	"name": "MongoDB",
-    	"proficiency": 90,
-    	"hue": "#22a048",
-    	"image": "/assets/images/mongodb.gif",
+    },
+    {
+      "name": "MongoDB",
+      "proficiency": 100,
+      "hue": "#22a048",
+      "image": "/assets/images/mongodb.gif",
       "level": "proficient",
       "type": "database"
-    }, {
-    	"name": "REDIS",
-    	"proficiency": 85,
-    	"hue": "#d82c26",
-    	"image": "/assets/images/redis.gif",
+    },
+    {
+      "name": "REDIS",
+      "proficiency": 100,
+      "hue": "#d82c26",
+      "image": "/assets/images/redis.gif",
       "level": "proficient",
       "type": "database"
-    }, {
-    	"name": "MySQL",
-    	"proficiency": 85,
-    	"class": "light-text",
-    	"hue": "#02618a",
-    	"image": "/assets/images/mysql.gif",
+    },
+    {
+      "name": "MySQL",
+      "proficiency": 100,
+      "class": "light-text",
+      "hue": "#02618a",
+      "image": "/assets/images/mysql.gif",
       "level": "proficient",
       "type": "database"
-    }, {
-    	"name": "DynamoDB",
-    	"proficiency": 70,
-    	"hue": "#4f92ce",
-    	"image": "/assets/images/dynamodb.gif",
+    },
+    {
+      "name": "DynamoDB",
+      "proficiency": 100,
+      "hue": "#4f92ce",
+      "image": "/assets/images/dynamodb.gif",
       "level": "proficient",
       "type": "database"
-    }, {
-    	"name": "Elasticsearch",
-    	"proficiency": 50,
-    	"hue": "#92c63e",
-    	"image": "/assets/images/elasticsearch.gif",
+    },
+    {
+      "name": "Elasticsearch",
+      "proficiency": 100,
+      "hue": "#92c63e",
+      "image": "/assets/images/elasticsearch.gif",
       "level": "proficient",
       "type": "database"
-    }, {
-    	"name": "CouchDB",
-    	"proficiency": 60,
-    	"hue": "#ed1e24",
-    	"image": "/assets/images/couchbase.gif",
+    },
+    {
+      "name": "CouchDB",
+      "proficiency": 70,
+      "hue": "#ed1e24",
+      "image": "/assets/images/couchbase.gif",
       "level": "learning",
       "type": "database"
-    }, {
-    	"name": "Hadoop",
-    	"proficiency": 45,
-    	"hue": "#f3ea00",
-    	"image": "/assets/images/hadoop.gif",
+    },
+    {
+      "name": "Hadoop",
+      "proficiency": 70,
+      "hue": "#f3ea00",
+      "image": "/assets/images/hadoop.gif",
       "level": "learning",
       "type": "database"
-    }, {
+    },
+    {
       "name": "Amazon Web Services",
       "level": "proficient",
       "type": "DevOps"
-    }, {
+    },
+    {
       "name": "Project Management",
       "level": "proficient",
       "type": "Other"
-    }, {
-      "name": "Containerized Apps",
+    },
+    {
+      "name": "Serverless Architectures",
       "level": "proficient",
       "type": "DevOps"
-    }, {
-      "name": "Server-less Architectures",
+    },
+    {
+      "name": "CloudFormation",
       "level": "proficient",
       "type": "DevOps"
-    }, {
+    },
+    {
       "name": "TDD",
       "level": "proficient",
       "type": "Other"
     }
   ],
   "work": [
-
     {
       "position": "Senior Software Engineer",
       "company": "Skookum Digital Works",
       "startDate": "September 2016",
       "endDate": "Present",
-      "highlights": [
-        "Javascript Development",
-        "Multi-Industry Exposure"
-      ]
+      "highlights": ["Full-Stack Development", "Multi-Industry Exposure"]
     },
     {
       "position": "Consultant",
       "company": "Myjive, Inc.",
       "startDate": "March 2016",
       "endDate": "September 2016",
-      "highlights": [
-        "Hybrid Mobile Development",
-        "HIPAA Compliance"
-      ]
+      "highlights": ["Mobile Application Development", "HIPAA Compliance"]
     },
     {
       "position": "Owner",
       "company": "TL;DR Software",
       "startDate": "June 2015",
       "endDate": "Present",
-      "highlights": [
-        "Small Business Solutions",
-        "HIPAA Compliance"
-      ]
+      "highlights": ["Small Business Solutions", "HIPAA Compliance"]
     },
     {
       "position": "VP Information Design",
       "company": "Galvanize Labs, Inc.",
       "startDate": "June 2013",
       "endDate": "June 2016",
-      "highlights": [
-        "Elementary Ed Technology",
-        "Distributed DevOps"
-      ]
+      "highlights": ["Elementary Ed Technology", "Distributed DevOps"]
     },
     {
       "position": "Owner",
       "company": "Joel Bowen Designs",
       "startDate": "July 2005",
       "endDate": "June 2015",
-      "highlights": [
-        "Full Stack Development",
-        "Design Services"
-      ]
+      "highlights": ["Full Stack Development", "Design Services"]
     },
     {
       "position": "Project Coordinator",
@@ -259,20 +282,15 @@
       "startDate": "November 2010",
       "endDate": "May 2013",
       "summary": "Full-Stack Development",
-      "highlights": [
-        "Geek Squad Academy",
-        "Enterprise Integrations"
-      ]
-    }, {
+      "highlights": ["Geek Squad Academy", "Enterprise Integrations"]
+    },
+    {
       "position": "Network Operations Specialist",
       "company": "GLS",
       "startDate": "April 2010",
       "endDate": "September 2010",
       "summary": "CISCO Networking",
-      "highlights": [
-        "Remote Network Management",
-        "Technical Support"
-      ]
+      "highlights": ["Remote Network Management", "Technical Support"]
     }
   ],
   "education": [
@@ -301,8 +319,9 @@
   ],
   "training": [
     {
-      "name": "Adaptive Path UX Intensive",
-      "summary": "4-Day Intensive, UX Design Process & Principles"
+      "name": "2x Attendee: UX Intensive",
+      "summary":
+        "Adaptive Path Training: Design Strategy, Service Design, Interaction Design, and Futuring"
     }
   ],
   "accomplishments": [
@@ -318,7 +337,7 @@
       "highlights": [
         "HIPAA Compliant Platforms",
         "Schema-less Content Management (Node.js)",
-        "Code Deployment (Git + Linux)",
+        "Code Deployment Pipeline (Git + Linux)",
         "Data Driven Dashboards (Node.js, AngularJS)",
         "Scalable Management Platforms (Node.js)",
         "Unity 3D + WebGL, Web & Chromebook (AngularJS)"

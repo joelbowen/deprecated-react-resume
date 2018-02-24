@@ -3,8 +3,8 @@
 @import '../sass-components/shared';
 
 .intro {
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   padding-top: 2rem;
 
   @include breakpoint(small only) {
@@ -31,7 +31,6 @@
       color: $black-text;
       text-decoration: underline;
     } // a:hover //
-
   } // contact //
 
   .photo {
@@ -49,7 +48,6 @@
         position: absolute;
         width: 97%;
       } // medium //
-
     } // img //
   } // photo //
 
@@ -59,13 +57,12 @@
     } // medium //
 
     h3 {
-      color: rgba($teal, .5);
+      color: $teal;
 
       @include breakpoint(small only) {
         margin-top: 1rem;
       } // small-only //
     } // h3 //
-
   } // about //
 
   .highlight {
