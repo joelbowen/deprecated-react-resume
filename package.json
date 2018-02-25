@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "gulp",
+    "prebuild": "rimraf ./dist && gulp pre:build",
     "build": "gulp build",
     "dist": "pushd ./dist; python ../server.py",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -48,6 +49,7 @@
     "offline-plugin": "^4.9.0",
     "postcss-loader": "^0.11.0",
     "require-dir": "^0.3.0",
+    "rimraf": "^2.6.2",
     "sass-loader": "^4.0.0",
     "source-map-loader": "^0.1.5",
     "style-loader": "^0.13.1",
