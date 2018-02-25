@@ -1,7 +1,6 @@
 @import '../../sass-components/shared';
 @import '../../../node_modules/foundation-sites/scss/foundation';
 
-
 $proficient-width: 37rem;
 $box-height: 4.5rem;
 
@@ -9,11 +8,13 @@ $box-height: 4.5rem;
   margin-top: 2rem;
 
   .mobile-title {
-    border-bottom: 1px solid rgba($white, .5);
+    border-bottom: 1px solid rgba($white, 0.5);
     color: $white;
     margin-bottom: 3rem;
     text-transform: uppercase;
-    small { @include sans-font; }
+    small {
+      @include sans-font;
+    }
   } // mobile-title //
 
   .stack-box {
@@ -48,7 +49,6 @@ $box-height: 4.5rem;
       } // learning //
     } // medium //
 
-
     h5 {
       color: $white;
       margin-top: -1.5rem;
@@ -60,8 +60,8 @@ $box-height: 4.5rem;
       flex-wrap: wrap;
       list-style: none;
       margin: 0;
-      padding-left: .3rem;
-      padding-right: .3rem;
+      padding-left: 0.3rem;
+      padding-right: 0.3rem;
 
       @include breakpoint(medium) {
         padding-left: 0;
@@ -72,14 +72,13 @@ $box-height: 4.5rem;
   .stack {
     color: $gray-dark;
     display: flex;
-    margin: -.2rem -.2rem -.2rem -.15rem;
 
     .title {
       @include sans-font-secondary;
       background: $gray-lightest;
       font-size: 1rem;
       font-weight: 600;
-      padding: .2rem .4rem;
+      padding: 0.2rem 0.4rem;
       text-transform: uppercase;
     } // title //
 
@@ -87,10 +86,10 @@ $box-height: 4.5rem;
       align-items: center;
       background: $white;
       display: flex;
-      font-size: .75rem;
+      font-size: 0.75rem;
       font-style: italic;
-      margin-left: .2rem;
-      padding: .2rem .6rem .2rem .4rem;
+      margin-left: 1px;
+      padding: 0.2rem 0.6rem 0.2rem 0.4rem;
     } // description //
   } // stack //
 } // technologies //
@@ -100,7 +99,9 @@ $box-height: 4.5rem;
     li:nth-last-child(1):nth-child(odd) {
       flex: 0 0 100%;
       max-width: 100%;
-      .knowledge { width: 50%; }
+      .knowledge {
+        width: 50%;
+      }
     } // li //
   } // technology-list //
 } // small only
@@ -110,14 +111,27 @@ $box-height: 4.5rem;
     li:nth-last-child(1):nth-child(odd) {
       flex: 0 0 66.666666666%;
       max-width: 66.666666666%;
-      .knowledge { width: 50%; }
+      .knowledge {
+        width: 50%;
+      }
     } // li //
   } // proficient //
   .learning {
-    li:nth-last-child(1):nth-child(even) {
-      flex: 0 0 66.666666666%;
-      max-width: 66.666666666%;
-      .knowledge { width: 50%; }
+    li {
+      &:nth-last-child(1):nth-child(even) {
+        flex: 0 0 66.666666666%;
+        max-width: 66.666666666%;
+        .knowledge {
+          width: 50%;
+        }
+      }
+      &:nth-last-child(1):first-child {
+        flex: 0 0 100%;
+        max-width: 100%;
+        .knowledge {
+          width: 33%;
+        }
+      }
     } // li //
   } // proficient //
 } // 500+ //
@@ -127,14 +141,27 @@ $box-height: 4.5rem;
     li:nth-last-child(1):nth-child(odd) {
       flex: 0 0 33.333333334%;
       max-width: 33.333333334%;
-      .knowledge { width: 50%; }
+      .knowledge {
+        width: 50%;
+      }
     } // li //
   } // proficient //
   .learning {
-    li:nth-last-child(1):nth-child(even) {
-      flex: 0 0 66.666666666%;
-      max-width: 66.666666666%;
-      .knowledge { width: 50%; }
-    } // li //
+    li {
+      &:nth-last-child(1):nth-child(even) {
+        flex: 0 0 66.666666666%;
+        max-width: 66.666666666%;
+        .knowledge {
+          width: 50%;
+        }
+      }
+      &:nth-last-child(1):first-child {
+        flex: 0 0 100%;
+        max-width: 100%;
+        .knowledge {
+          width: 33%;
+        }
+      }
+    }
   } // proficient //
 } // 500+ //
