@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "Joel Bowen",
-  "description": "Joel Bowen: Full-Stack Engineer",
+  "description": "Joel Bowen | Full-Stack Engineer",
   "icons": {
     "60": "assets/resources/firefox_app_60x60.png",
     "128": "assets/resources/firefox_app_128x128.png",
@@ -9,6 +9,6 @@
   },
   "developer": {
     "name": "Joel Bowen",
-    "url": "http://joelbowen.com/"
+    "url": "http://joel.software/"
   }
 }
