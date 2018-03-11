@@ -52,4 +52,4 @@ _You should not need any global dependencies, if you use npm scripts_
 [webpack]: https://github.com/webpack/webpack
 [eslint-config-airbnb]: https://github.com/airbnb/javascript
 
-_Built with Node 6.4.0 and npm 3.10.6_
+_Built with Node 8.9.4 and npm 5.6.0_
