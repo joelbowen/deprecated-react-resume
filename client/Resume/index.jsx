@@ -1,13 +1,13 @@
-import React from 'react';
-import Intro from '../Intro';
-import Skills from '../Skills';
-import Experience from '../Experience';
-import Accomplishments from '../Accomplishments';
-import Education from '../Education';
+import React from 'react'
+import Intro from '../Intro'
+import Skills from '../Skills'
+import Experience from '../Experience'
+import Accomplishments from '../Accomplishments'
+import Education from '../Education'
 
-import './resume.scss';
+import './resume.scss'
 
-const ResumeData = require('../assets/resume.json');
+const ResumeData = require('../assets/resume.json')
 
 /* Component */
 function Resume() {
@@ -31,14 +31,16 @@ function Resume() {
       <div className="row small-collapse built-with">
         <div className="columns">
           <p>
-            Lovingly built with with ReactJS, Babel + ESLint, gulp + Webpack, SASS, and hosted on S3
+            Lovingly built with with React, Gulp + Webpack, SASS, Styled
+            Components, and hosted on Netlify
             <br />
-            See the code <a href="https://github.com/joelbowen/react-resume">here</a>.
+            See the code or submit an issue{' '}
+            <a href="https://github.com/joelbowen/react-resume">here</a>.
           </p>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Resume;
+export default Resume
