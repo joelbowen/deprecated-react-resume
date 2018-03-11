@@ -47,7 +47,7 @@ function Skills({ skills }) {
 }
 
 Skills.propTypes = {
-  skills: React.PropTypes.array.isRequired
+  skills: React.PropTypes.array.isRequired,
 }
 
 export default Skills
