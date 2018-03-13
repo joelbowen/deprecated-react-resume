@@ -29,17 +29,17 @@ function Accomplishments({ volunteer, training, accomplishments }) {
   return (
     <div className="accomplishments">
       <h3>Training & Accomplishments</h3>
-      {volunteer.map((a, i) => <Item key={i} item={a} />)}
-      {training.map((a, i) => <Item key={i} item={a} />)}
       {accomplishments.map((a, i) => <Item key={i} item={a} />)}
+      {training.map((a, i) => <Item key={i} item={a} />)}
+      {volunteer.map((a, i) => <Item key={i} item={a} />)}
     </div>
   )
 }
 
 Accomplishments.propTypes = {
-  volunteer: React.PropTypes.array,
-  training: React.PropTypes.array,
   accomplishments: React.PropTypes.array,
+  training: React.PropTypes.array,
+  volunteer: React.PropTypes.array,
 }
 
 export default Accomplishments

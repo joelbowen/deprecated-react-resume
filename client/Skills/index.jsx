@@ -18,8 +18,7 @@ function Skills({ skills }) {
   const yearsExp = moment().diff('2004-08-01', 'years')
   const frontEndDesc = `${yearsExp}-Years HTML/CSS, ${yearsExp -
     3}-Years JavaScript`
-  const serverSideDesc = `${yearsExp -
-    8}-Years Server-side Javascript on Ubuntu / Linux with Node.js`
+  const serverSideDesc = `${yearsExp - 8}-Years Ubuntu / Linux`
   const databaseDesc = `${yearsExp -
     8}-Years PostgreSQL, MongoDB, REDIS, and ${yearsExp - 4}-Years MySQL`
   return (
@@ -31,7 +30,7 @@ function Skills({ skills }) {
       />
       <SkillGroup
         technologies={serverSideSkills}
-        title="Server-Side"
+        title="Back-End"
         description={serverSideDesc}
       />
       <SkillGroup
