@@ -15,15 +15,15 @@
   "skills": [
     {
       "name": "JavaScript",
-      "subtitle": "functional",
+      "subtitle": "+TypeScript",
       "proficiency": 100,
       "hue": "#f1dd3f",
       "level": "proficient",
       "type": "front-end"
     },
     {
-      "name": "React",
-      "subtitle": "DOM & Native",
+      "name": "React DOM",
+      "subtitle": "+React Native",
       "proficiency": 100,
       "hue": "#6bccef",
       "image": "/assets/images/reactjs.gif",
@@ -39,15 +39,6 @@
       "class": "light-text"
     },
     {
-      "name": "TypeScript",
-      "proficiency": 100,
-      "hue": "#2e67b1",
-      "class": "light-text",
-      "image": "/assets/images/ts.gif",
-      "level": "proficient",
-      "type": "front-end"
-    },
-    {
       "name": "Foundation / Bootstrap",
       "proficiency": 100,
       "class": "light-text",
@@ -58,9 +49,25 @@
     },
     {
       "name": "GraphQL",
-      "proficiency": 70,
+      "proficiency": 100,
       "hue": "#2e67b1",
       "class": "light-text",
+      "level": "proficient",
+      "type": "front-end"
+    },
+    {
+      "name": "Angular 1.x",
+      "subtitle": "(deprecating)",
+      "proficiency": 100,
+      "hue": "#e52f30",
+      "image": "/assets/images/angular.gif",
+      "level": "proficient",
+      "type": "front-end"
+    },
+    {
+      "name": "Vue.js",
+      "proficiency": 70,
+      "hue": "#00c37f",
       "level": "learning",
       "type": "front-end"
     },
@@ -69,15 +76,6 @@
       "proficiency": 70,
       "hue": "#7dd22a",
       "level": "learning",
-      "type": "front-end"
-    },
-    {
-      "name": "Angular",
-      "subtitle": "1.x",
-      "proficiency": 100,
-      "hue": "#e52f30",
-      "image": "/assets/images/angular.gif",
-      "level": "proficient",
       "type": "front-end"
     },
     {
@@ -106,9 +104,9 @@
       "type": "server-side"
     },
     {
-      "name": "GraphQL",
+      "name": "CloudFormation",
       "proficiency": 100,
-      "hue": "#2e67b1",
+      "hue": "#79a038",
       "class": "light-text",
       "level": "proficient",
       "type": "server-side"
@@ -124,27 +122,10 @@
       "type": "server-side"
     },
     {
-      "name": "Python",
-      "proficiency": 50,
-      "hue": "#ffcf24",
-      "image": "/assets/images/python.gif",
-      "level": "proficient",
-      "type": "server-side"
-    },
-    {
       "name": "Go",
       "proficiency": 45,
       "hue": "#70ccdc",
       "image": "/assets/images/go.gif",
-      "level": "learning",
-      "type": "server-side"
-    },
-    {
-      "name": "Ruby",
-      "proficiency": 45,
-      "class": "light-text",
-      "hue": "#bb2326",
-      "image": "/assets/images/ruby.gif",
       "level": "learning",
       "type": "server-side"
     },
@@ -207,17 +188,9 @@
       "type": "database"
     },
     {
-      "name": "Hadoop",
-      "proficiency": 70,
-      "hue": "#f3ea00",
-      "image": "/assets/images/hadoop.gif",
-      "level": "learning",
-      "type": "database"
-    },
-    {
-      "name": "Amazon Web Services",
+      "name": "Agile Scrum Coaching",
       "level": "proficient",
-      "type": "DevOps"
+      "type": "Other"
     },
     {
       "name": "Project Management",
@@ -226,11 +199,6 @@
     },
     {
       "name": "Serverless Architectures",
-      "level": "proficient",
-      "type": "DevOps"
-    },
-    {
-      "name": "CloudFormation",
       "level": "proficient",
       "type": "DevOps"
     },
@@ -246,7 +214,11 @@
       "company": "Skookum Digital Works",
       "startDate": "September 2016",
       "endDate": "Present",
-      "highlights": ["Full-Stack Development", "Multi-Industry Exposure"]
+      "highlights": [
+        "Multi-Industry Exposure",
+        "Team Leadership",
+        "Full-Stack Architectures"
+      ]
     },
     {
       "position": "Consultant",
@@ -304,7 +276,7 @@
     },
     {
       "area": "Art & Computer Science",
-      "studyType": "Associate",
+      "studyType": "Transferred",
       "institution": "York Technical College",
       "startDate": "2006",
       "endDate": "2008"
@@ -319,28 +291,30 @@
   ],
   "training": [
     {
-      "name": "2x Attendee: UX Intensive",
+      "name": "Adaptive Path UX Intensive (Atlanta & Amsterdam)",
       "summary":
-        "Adaptive Path Training: Design Strategy, Service Design, Interaction Design, and Futuring"
+        "Design Strategy, Service Design, Interaction Design, and Futuring"
     }
   ],
   "accomplishments": [
     {
-      "name": "Large Scale DevOps",
+      "name": "Event-Driven Data Pipelines",
       "highlights": [
         "Coordinated Multiple National Rollouts",
-        "Support >1K Concurrent Users"
+        "Container Based Scaling"
       ]
+    },
+    {
+      "name": "React Native Applications",
+      "highlights": ["iOS and Android Support", "Serverless Infrastructure"]
     },
     {
       "name": "Special Projects",
       "highlights": [
-        "HIPAA Compliant Platforms",
-        "Schema-less Content Management (Node.js)",
-        "Code Deployment Pipeline (Git + Linux)",
-        "Data Driven Dashboards (Node.js, AngularJS)",
-        "Scalable Management Platforms (Node.js)",
-        "Unity 3D + WebGL, Web & Chromebook (AngularJS)"
+        "Innovation Strategy (Operating Model)",
+        "HIPAA Compliance Engineering & Training",
+        "API Driven Content Management (Incl. Contentful)",
+        "Unity 3D + WebGL, Browser & Chromebook"
       ]
     }
   ]
