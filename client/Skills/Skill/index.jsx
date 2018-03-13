@@ -1,12 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import { darken } from 'polished'
+import { darken, getLuminance, lighten } from 'polished'
 
 const Skill = styled.li`
   align-items: flex-end;
   box-sizing: border-box;
   display: flex;
   flex: 0 0 50%;
+  font-family: 'Pathway Gothic One', sans-serif;
   height: 8rem;
   margin-bottom: -0.05rem;
   max-width: 50%;
@@ -72,17 +73,21 @@ const Knowledge = styled.div`
   }
 `
 
+const contrastColor = color =>
+  getLuminance(color) > 0.5 ? darken(0.5, color) : lighten(0.5, color)
+
 const KnowledgeTitle = styled.span`
-  color: ${props => darken(0.35, props.baseColor)};
+  color: ${props => contrastColor(props.data.hue)};
   font-size: 1rem;
 
-  @media (min-width: 640px) {
-    font-size: 0.85rem;
-  }
+  ${'' /* @media (min-width: 640px) {
+    font-size: ${props =>
+      props.data.name.length > 10 ? '0.75rem' : '0.85rem'};
+  } */};
 `
 
 const KnowledgeSubtitle = styled.span`
-  color: ${props => darken(0.35, props.baseColor)};
+  color: ${props => contrastColor(props.baseColor)};
   font-size: 0.75rem;
 `
 
@@ -93,7 +98,7 @@ class Technology extends React.Component {
     const name = item ? item.name : ''
     const subtitle = item ? item.subtitle : ''
     const style = {
-      height: this.state && item ? `${item.proficiency}%` : '0%'
+      height: this.state && item ? `${item.proficiency}%` : '0%',
     }
 
     setTimeout(() => {
@@ -106,7 +111,7 @@ class Technology extends React.Component {
         <BackgroundLine />
         <BackgroundLine />
         <Knowledge className="knowledge" data={item} style={style}>
-          <KnowledgeTitle baseColor={item.hue}>{name}</KnowledgeTitle>
+          <KnowledgeTitle data={item}>{name}</KnowledgeTitle>
           <KnowledgeSubtitle baseColor={item.hue}>{subtitle}</KnowledgeSubtitle>
         </Knowledge>
       </Skill>
@@ -115,7 +120,7 @@ class Technology extends React.Component {
 }
 
 Technology.propTypes = {
-  item: React.PropTypes.object
+  item: React.PropTypes.object,
 }
 
 export default Technology
